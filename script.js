@@ -1,3 +1,23 @@
+    // TASK1
+
+    class car {
+        constructor(brand, model, CurrentFuel, Millage) {
+            this.brand = brand;
+            this.model = model;
+            this.CurrentFuel = CurrentFuel;
+            this.Millage = Millage;
+            Drive(distance) 
+               this.distance=distance;
+               getDrive:function(){
+                return
+               }
+
+            
+        }
+    }
+    const car1 = new car("bmw", "x5", 0, 0, )
+    const drive1=new Drive(3)
+    console.log(car1);
 
 
 
@@ -18,7 +38,7 @@ class product {
     }
 }
 const product1 = new product("milla", 2);
-    // Object.setPrototypeOf(stu1,person5);
+// Object.setPrototypeOf(product1);
 
 console.log(product1);
 // const FatPercent1 =  new FatPercent("");
